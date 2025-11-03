@@ -151,7 +151,7 @@ class _ShakeQuotePageState extends State<ShakeQuotePage>
                       Icon(
                         Icons.wb_incandescent,
                         size: 80,
-                        color: Colors.white.withOpacity(0.9),
+                        color: Colors.white.withValues(alpha: 0.9),
                       ),
                       const SizedBox(height: 40),
 
@@ -170,7 +170,7 @@ class _ShakeQuotePageState extends State<ShakeQuotePage>
                         'to get inspired!',
                         style: TextStyle(
                           fontSize: 20,
-                          color: Colors.white.withOpacity(0.9),
+                          color: Colors.white.withValues(alpha: 0.9),
                           letterSpacing: 0.8,
                         ),
                       ),
@@ -226,7 +226,7 @@ class _ShakeQuotePageState extends State<ShakeQuotePage>
                           borderRadius: BorderRadius.circular(24),
                           boxShadow: [
                             BoxShadow(
-                              color: Colors.black.withOpacity(0.3),
+                              color: Colors.black.withValues(alpha: 0.3),
                               blurRadius: 20,
                               offset: const Offset(0, 10),
                             ),
